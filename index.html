@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Welcome to the Quiz App</h1>
+        
+        <!-- Category Selection -->
+        <div class="category-selection">
+            <label for="category-select">Select a Category:</label>
+            <select id="category-select">
+                <option value="9">General Knowledge</option>
+                <option value="17">Science: Nature</option>
+                <option value="22">Geography</option>
+                <!-- Add the provided categories here -->
+                <option value="17">Science: Space</option>
+                <option value="23">History</option>
+                <option value="21">Sports</option>
+            </select>
+        </div>
+
+        <!-- Quiz Section (Updated with id="quiz") -->
+        <div class="quiz" id="quiz">
+            <h2 id="question" class="question"></h2>
+            <div id="options" class="options"></div>
+            <button id="next-button" class="next-button">Next</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
